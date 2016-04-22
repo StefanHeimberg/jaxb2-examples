@@ -1,5 +1,8 @@
 <?xml version="1.0"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns="http://stefanheimberg.ch/examples/jaxb"
+    targetNamespace="http://stefanheimberg.ch/examples/jaxb">
+    
     <xs:element name="Person">
         <xs:complexType>
             <xs:sequence>
@@ -9,4 +12,5 @@
             <xs:attribute  name="id" type="xs:long" use="required" />
         </xs:complexType>
     </xs:element>
+    
 </xs:schema>
